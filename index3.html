@@ -1,0 +1,124 @@
+><!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 Hũ cốt</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #1a1a1a, #333);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        margin: 40px 0;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #ffcc00;
+        text-shadow: 2px 2px #000;
+      }
+
+      .friends-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        max-width: 1200px;
+        padding: 20px;
+      }
+
+      .friend-card {
+        background: #222;
+        border-radius: 20px;
+        width: 220px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      }
+
+      .friend-card:hover {
+        transform: translateY(-10px) scale(1.05);
+        box-shadow: 0 15px 25px rgba(255, 204, 0, 0.5);
+      }
+
+      .friend-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ffcc00;
+        margin-bottom: 15px;
+      }
+
+      .friend-card h2 {
+        margin: 10px 0;
+        font-size: 20px;
+        color: #ffcc00;
+      }
+
+      .friend-card p {
+        font-size: 14px;
+        color: #ccc;
+      }
+
+      @media (max-width: 768px) {
+        .friends-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>5 Hũ cốt</h1>
+    <div class="friends-container">
+      <div class="friend-card">
+        <img
+          src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/481454356_1167029821702913_8490183269482035163_n.jpg?_nc_cat=101&cb=99be929b-7bdcbe47&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG3n8iDvDmIf9ZC0s-wMMHjjVT3gd_HLOqNVPeB38cs6vND4VIoWQSopm1nQ85FqkwxY8jKxWy223jj62IWHWO7&_nc_ohc=TXpUbit3eiEQ7kNvwEHd4xP&_nc_oc=Adkxm94QmI4lIXz5iRwfQX2jnKsJZTC09jxjeVq4CStDvL8EEl6QSWYKzu4AJSKD2PfHYPeoNLSNbLQ-Y1fszntg&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=-1vNeVcTBQvphrXb8eWdlg&oh=00_AfXFkh0hgplXLQWfHywVa1_mzHQuq3tSh8Td7QhdrdGcFw&oe=68BA1DC2"
+          alt="Người bạn 1"
+        />
+        <h2>Huế Đần</h2>
+        <p>Trap girl thành tiến.</p>
+      </div>
+      <div class="friend-card">
+        <img
+          src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/476485467_1268650134432559_3882517708278670538_n.jpg?_nc_cat=107&cb=99be929b-7bdcbe47&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFjoI0PES-ntlNGbM1J_DKN8J6BPycS09zwnoE_JxLT3B75A9xBdi9yGxQ0nFntqP2TNovEjb1AKom2GBV5xo4G&_nc_ohc=c-YhcmDHJQ0Q7kNvwGH1mPw&_nc_oc=AdlSvQfOfZV_4Wxc0BXsyy1flkqq5oOz8rt1-V0RL8CAgVjPHCam80k3PPXBnPPYDltw8lUk0DKPAPZXxUwyMcn-&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=VbCj2wqk6zCgGCVOl-XqYg&oh=00_AfWhgEOJPq52qJBvUBi30YlaNCNfzIp3eaPlu8izDvxkVA&oe=68BA15DB"
+          alt="Người bạn 2"
+        />
+        <h2>Linh mập</h2>
+        <p>Girl hói đầu</p>
+      </div>
+      <div class="friend-card">
+        <img
+          src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/467574633_1122744182803690_6914621551629709915_n.jpg?_nc_cat=111&cb=99be929b-7bdcbe47&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHmbKw-rz-ivg8QsPu0Uuw4ndw53URyELWd3DndRHIQtcsvUQjEGLbh9jzxfYtzDKDEJ3iVDP2H0IUyiZo8dGnQ&_nc_ohc=2KBTM7J0JaUQ7kNvwEK723k&_nc_oc=AdnURjNjne_71BMPi22aVaeZT8_QZv-_JdTz2UANoCZ0mUqvz6zWej72WhBzFhHoWqSq1w6mm2Bbet6aFcdbrDAH&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=uWJCZbLtZyM23QyqCvOwwQ&oh=00_AfX5YuJGzaVU23pxBrxbTlEHTOteVta26663oDYjUUdOnw&oe=68BA2795"
+          alt="Người bạn 3"
+        />
+        <h2>Huệ</h2>
+        <p>Giáo viên vùng cao.</p>
+      </div>
+      <div class="friend-card">
+        <img
+          src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/494435635_1628616471862394_5818386088384192872_n.jpg?_nc_cat=102&cb=99be929b-7bdcbe47&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFO8aJb8RxSxRh5TRI-Ly2h80jlo9SlSMPzSOWj1KVIw_vUxhIE9LSM2oysqwdu56MLy5unAY1BEUO7MaGqSyN9&_nc_ohc=IaKBVK2Wt0sQ7kNvwEhM8Mg&_nc_oc=AdljeDg94ihph2yR19zoJIdpr8OwgvzeajlzlAO-hG4mNMMHXIbWCIpM5VbjCufIU4HZE8A1SA4eNH4itRDGjkZJ&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=2BtIxabhC9zjUytkAx33Dw&oh=00_AfVnnk2zEqutC3PnKe9Qdpb3NW-POecx7W0junrsRwWLNQ&oe=68BA1A55"
+          alt="Người bạn 4"
+        />
+        <h2>Hùng</h2>
+        <p>Sai ngành nhưng không muốn đổi :0</p>
+      </div>
+      <div class="friend-card">
+        <img
+          src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-1/480989084_1362260751892948_8085919417527852180_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHzbIOLWEIcMC3BM2_yZpQX2OLATDBtXe_Y4sBMMG1d7x8oLVLYH6-pfmxvaPZ7YqVxiDN0qJMWeOwYCohz7maS&_nc_ohc=H7z5VjGAy8wQ7kNvwFDkwN6&_nc_oc=AdkZ_y-nyqiGvjfP47sv5gJ-90t1K9rsxH3kMG9qNi_yIrJ9CBIQMVeB-MgvZBqt9235VIbPW9ndhABtQyNywjQ4&_nc_zt=24&_nc_ht=scontent.fhan7-1.fna&_nc_gid=nf-4RKuy7aW5MRhHvCDu2A&oh=00_AfUxA7YzPprTpjOx2S-AgO9aBs7RPwxo0ynF_IQpRVurGQ&oe=68BA1F18"
+          alt="Người bạn 5"
+        />
+        <h2>Đức</h2>
+        <p>Hoàng kim cốt.</p>
+      </div>
+    </div>
+  </body>
+</html>
